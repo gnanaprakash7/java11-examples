@@ -9,7 +9,7 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 'gcr.io/$PROJECT_ID/java11-example']
 
-logsBucket: "gs://terraformgcpow23"
+logsBucket: "s3: l2assignment-s3bucket-gp"
 
 options:
   logging: GCS_ONLY
